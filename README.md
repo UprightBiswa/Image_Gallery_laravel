@@ -2,42 +2,7 @@
 
 <head>
   <title>README</title>
-  <style>
-    h1 {
-      font-size: 36px;
-      font-weight: bold;
-      margin-bottom: 20px;
-    }
-    
-    h2 {
-      font-size: 28px;
-      font-weight: bold;
-      margin-bottom: 15px;
-    }
-    
-    p {
-      font-size: 18px;
-      margin-bottom: 20px;
-    }
-    
-    code {
-      background-color: #f2f2f2;
-      padding: 5px;
-      border-radius: 5px;
-      font-size: 14px;
-    }
-    
-    ul {
-      list-style-type: square;
-      margin-left: 20px;
-      margin-bottom: 20px;
-    }
-    
-    li {
-      font-size: 16px;
-      margin-bottom: 10px;
-    }
-  </style>
+ 
 </head>
 
 <body>
