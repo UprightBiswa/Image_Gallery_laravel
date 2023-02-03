@@ -10,13 +10,11 @@
   <p>In this posts, i am going to share with you how to make bootstrap photo gallery with validation and fancybox in laravel 5, laravel 6, laravel 7, laravel 8 and laravel 9 application.
 As we know, we almost require to develop image gallery module for user. Photo album will help to easily upload image and remove that with proper validation. So we always want to built good bootstrap layout with image gallery. However in this example, we will implement photo gallery from scratch with good layout that way you can simply built it with your project.
 In this example i created "image_gallery" table with main 'title' and 'image' columns. I created one controller and view file for display form and error messages, validation etc. After finish this example you will find layout as like bellow preview:
-.</p>
-![image](https://user-images.githubusercontent.com/90900262/216687637-a74bd544-89f5-412b-ad5e-9c678e4af88d.png)
+.![image](https://user-images.githubusercontent.com/90900262/216687637-a74bd544-89f5-412b-ad5e-9c678e4af88d.png)</p>
 
-  <h2>Getting Started</h2>
-  <p>Instructions on how to set up the project locally.</p>
-  <ul>
-    <li>Step 1:: Install Laravel Application
+
+ 
+ <li>Step 1:: Install Laravel Application
 This tutorial is from scratch, So we require to get fresh Laravel 5.4 application using bellow command, So open your terminal OR command prompt and run bellow command:
 composer create-project --prefer-dist laravel/laravel blog
 </li>
@@ -31,8 +29,8 @@ DB_DATABASE=here your database name(blog)
 DB_USERNAME=here database username(root)
 DB_PASSWORD=here database password(root)
 </li>
-    <code>npm install</code>
-  </ul>
+    
+ 
   <li>Step 3:Create ImageGallery Table and Model
 In this step we have to create migration for image_gallery table using Laravel 5.4 php artisan command, so first fire bellow command:
 php artisan make:migration create_image_gallery_table
