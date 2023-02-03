@@ -37,12 +37,20 @@ DB_PASSWORD=here database password(root)
 In this step we have to create migration for image_gallery table using Laravel 5.4 php artisan command, so first fire bellow command:
 php artisan make:migration create_image_gallery_table
 After this command you will find one file in following path database/migrations and you have to put bellow code in your migration file for create Image_gallery table.
+   app/ImageGallery.php
 </li>
 
-  <h2>After creating table we have to create model for "image_gallery" table so just run bellow command and create new model:
+  <p>After creating table we have to create model for "image_gallery" table so just run bellow command and create new model:
 php artisan make:model ImageGallery
 Ok, so after run bellow command you will find app/ImageGallery.php and put bellow content in ImageGallery.php file:
-</h2>
+</p>
+ <p>Step 4: Create Route
+In this is step we need to create route for image listing, upload and delete. so open your routes/web.php file and add following route.
+routes/web.php
+Route::get('/image-gallery',[ImageGalleryController::class,'index']);
+Route::post('/image-gallery',[ImageGalleryController::class,'upload']);
+Route::delete('/image-gallery/{id}',[ImageGalleryController::class,'destroy']);
+ </p>
   <p>Step 5: Create Controller
 In this point, now we should create new controller as ImageGalleryController. So run bellow command and create new controller.
 php artisan make:controller ImageGalleryController
