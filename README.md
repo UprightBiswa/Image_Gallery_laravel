@@ -6,8 +6,12 @@
 </head>
 
 <body>
-  <h1>Project Title</h1>
-  <p>A brief description of the project.</p>
+  <h1>Image_gallery</h1>
+  <p>In this posts, i am going to share with you how to make bootstrap photo gallery with validation and fancybox in laravel 5, laravel 6, laravel 7, laravel 8 and laravel 9 application.
+As we know, we almost require to develop image gallery module for user. Photo album will help to easily upload image and remove that with proper validation. So we always want to built good bootstrap layout with image gallery. However in this example, we will implement photo gallery from scratch with good layout that way you can simply built it with your project.
+In this example i created "image_gallery" table with main 'title' and 'image' columns. I created one controller and view file for display form and error messages, validation etc. After finish this example you will find layout as like bellow preview:
+.</p>
+![image](https://user-images.githubusercontent.com/90900262/216687637-a74bd544-89f5-412b-ad5e-9c678e4af88d.png)
 
   <h2>Getting Started</h2>
   <p>Instructions on how to set up the project locally.</p>
