@@ -62,7 +62,7 @@ In this controller we will write three method for listing, upload and delete as 
 So, let's copy bellow code and put on ImageGalleryController.php file.
 app/Http/Controllers/ImageGalleryController.php
 </p>
-  <ul>
+ 
     <li>Step 6: Create View
 In Last step, let's create image-gallery.blade.php(resources/views/image-gallery.blade.php) for layout and we will write design code and image upload, delete code as well,so put following code:
 resources/views/image-gallery.blade.php
@@ -75,20 +75,10 @@ php artisan serve
 Now you can open bellow URL on your browser:
 http://localhost:8000/image-gallery
 </li>
-    <code>http://localhost:3000/</code>
-  </ul>
+   
 
-  <h2>Contributing</h2>
-  <p>Instructions on how to contribute to the project.</p>
-  <ul>
-    <li>Step 1: Fork the repository</li>
-    <li>Step 2: Create a feature branch</li>
-    <code>git checkout -b feature-branch</code>
-    <li>Step 3: Make changes and commit</li>
-    <code>git commit -am "Added new feature"</code>
-    <li>Step 4: Push the branch to GitHub</li>
-    <code>git push origin feature-branch</code>
-  </ul>
+
+
 </body>
 
 </html>
