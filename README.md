@@ -1,3 +1,5 @@
+![image](https://user-images.githubusercontent.com/90900262/216690218-ccf2e3ef-0593-4315-b50e-c1cfdc68bbef.png)
+
 <html>
 
 <head>
@@ -10,7 +12,7 @@
   <p>In this posts, i am going to share with you how to make bootstrap photo gallery with validation and fancybox in laravel 5, laravel 6, laravel 7, laravel 8 and laravel 9 application.
 As we know, we almost require to develop image gallery module for user. Photo album will help to easily upload image and remove that with proper validation. So we always want to built good bootstrap layout with image gallery. However in this example, we will implement photo gallery from scratch with good layout that way you can simply built it with your project.
 In this example i created "image_gallery" table with main 'title' and 'image' columns. I created one controller and view file for display form and error messages, validation etc. After finish this example you will find layout as like bellow preview:
-.![image](https://user-images.githubusercontent.com/90900262/216687637-a74bd544-89f5-412b-ad5e-9c678e4af88d.png)</p>
+.</p>
 
 
  
@@ -18,7 +20,7 @@ In this example i created "image_gallery" table with main 'title' and 'image' co
 This tutorial is from scratch, So we require to get fresh Laravel 5.4 application using bellow command, So open your terminal OR command prompt and run bellow command:
 composer create-project --prefer-dist laravel/laravel blog
 </li>
-    <code>git clone https://github.com/username/repository.git</code>
+   
     <li>Step 2:Database Configuration
 In this step we have to make database configuration for example database name, username, password etc. So let's open .env file and fill all details like as bellow:
 .env
@@ -61,12 +63,11 @@ So, let's copy bellow code and put on ImageGalleryController.php file.
 app/Http/Controllers/ImageGalleryController.php
 </p>
  
-    <li>Step 6: Create View
+ <li>Step 6: Create View
 In Last step, let's create image-gallery.blade.php(resources/views/image-gallery.blade.php) for layout and we will write design code and image upload, delete code as well,so put following code:
 resources/views/image-gallery.blade.php
-</li>
-    <code>npm start</code>
-    <li>Make sure to create images folder on your public directory.
+
+  Make sure to create images folder on your public directory.
 Because images will save on that directory.
 Now we are ready to run our example so run bellow command for quick run:
 php artisan serve
