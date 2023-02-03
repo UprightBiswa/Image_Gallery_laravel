@@ -1,10 +1,12 @@
 # Image_Gallery_laravel
 using laravel made a image gallery 
-![image](https://user-images.githubusercontent.com/90900262/216684950-bf1e81da-562d-4f6a-a3fa-5537baf4c9b3.png)
+
 In this posts, i am going to share with you how to make bootstrap photo gallery with validation and fancybox in laravel 5, laravel 6, laravel 7, laravel 8 and laravel 9 application.
+
 As we know, we almost require to develop image gallery module for user. Photo album will help to easily upload image and remove that with proper validation. So we always want to built good bootstrap layout with image gallery. However in this example, we will implement photo gallery from scratch with good layout that way you can simply built it with your project.
 In this example i created "image_gallery" table with main 'title' and 'image' columns. I created one controller and view file for display form and error messages, validation etc. After finish this example you will find layout as like bellow preview:
 Preview:
+![image](https://user-images.githubusercontent.com/90900262/216684950-bf1e81da-562d-4f6a-a3fa-5537baf4c9b3.png)
 
 
 
